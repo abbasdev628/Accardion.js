@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+#accardion{
+    button{
+        width: 100%;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    p{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+        &.active{
+            opacity: 1;
+            visibility: visible;
+            height: 100px;
+        }
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
